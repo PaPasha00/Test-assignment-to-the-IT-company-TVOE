@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    height: 76px;
+    padding: 20px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttonsContainer {
+    width: 1184px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    width: auto;
+    height: 34px;
+    font-size: 28px;
+    line-height: 33.89px;
+    font-weight: 500;
+}
+
+.infoStats {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.part {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 12px;
+    gap: 4px;
+    border-radius: 40px;
+}
+
+.userButtons {
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

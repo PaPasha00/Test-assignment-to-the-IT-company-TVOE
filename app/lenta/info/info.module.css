@@ -1,0 +1,283 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.containerInfoProfile {
+    width: 1092px;
+    height: 372px;
+    display: flex;
+    gap: 12px;
+}
+
+
+.info {
+    width: 816px;
+    height: 372px;
+    border-radius: 12px;
+    gap: 24px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+.info h1 {
+    line-height: 32.81px;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 32px 32px 0px 32px;
+}
+
+.posts {
+    padding: 0px 32px;
+    height: 220px;
+    width: 816px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.post {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 45px;
+    width: 752px;
+    gap: 8px;
+}
+
+.post p {
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.time {
+    color: #838383;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.theme {
+    background-color: #FF6B00;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+}
+
+.postBody {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.bottomLine {
+    display: flex;
+    gap: 8px;
+}
+
+.runLine {
+    background-color: #262626;
+    height: 40px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.runText {
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+    font-size: 100px;
+    line-height: 1.3;
+    font-family: sans-serif;
+    padding: 24px 0;
+    color: #fff;
+    white-space: nowrap;
+    animation: runner 8s infinite linear;
+}
+
+@keyframes runner{
+    0% {
+        transform: translateX(400%)
+    }
+    100% {
+        transform: translateX(-400%)
+    }
+}
+
+.runLine p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.profile {
+    width: 264px;
+    height: 372px;
+    border-radius: 12px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    padding: 12px;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.linkWeb {
+    font-size: 12px;
+    font-weight: 400;
+    color: #262626;
+}
+
+.row p {
+    font-size: 10px;
+    color: #848484;
+    font-weight: 400;
+}
+
+.add {
+    width: 240px;
+    height: 276px;
+    border-radius: 12px;
+    background-color: #1313136B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.profile h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #262626;
+}
+
+.writeMore {
+    width: 1092px;
+    height: 272px;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    padding: 32px;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.firstText {
+    font-size: 28px;
+    font-weight: 500;
+    color: #262626;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.containerCards {
+    display: flex;
+    gap: 16px;
+}
+
+.cardBody {
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    padding: 12px;
+    width: 245px;
+    height: 151px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.row1 {
+    height: 22px;
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.row1 span {
+    background-color: #FF6B00;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.row2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.fullRow {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.row3 {
+    font-size: 14px;
+    color: #474747;
+    line-height: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.row3 span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.inc {
+    width: 1092px;
+    height: 272px;
+    border-radius: 12px;
+    display: flex;
+    padding: 32px;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.contLast {
+    background-color: white;
+    border-radius: 12px;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 264px;
+    height: 295px;
+}
+
+.bottomRow {
+    padding: 0px 12px;
+}
+
+.cardsContainer {
+    display: flex;
+    gap: 12px;
+}
